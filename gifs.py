@@ -7,10 +7,10 @@
 
     Disclaimer: this was made as a school project and
     the code here is ridiculously non-optimized
-img
+
     Each function takes one filter (highpass, lowpass, bandpass
-    or notch filter) and generate the frames by applying different
-    values of one parameter of the filter. 
+    or notch filter) and generate the frames by applying the filter while 
+    "sweeping" one of the filter's parameters. 
     The functions will generate one frame for each value in "variation". 
     kwargs will be passed to imageio.mimsave(), which means you can pass 
     the 'fps' argument to control GIF framerate. Default is 'fps=10'
